@@ -5,13 +5,13 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class herovillain {
+public class HeroVillain {
 
     private int id;
     private String name;
     private String description;
     private String superpower;
     private int organizationId;
-    private List<organization> organizations;
+    private List<Organization> Organizations;
 
 }

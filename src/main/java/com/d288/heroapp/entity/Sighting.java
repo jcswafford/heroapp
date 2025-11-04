@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class sighting {
+public class Sighting {
 
     private int id;
     private int locationId;
