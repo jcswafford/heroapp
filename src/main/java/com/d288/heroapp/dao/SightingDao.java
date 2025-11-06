@@ -1,7 +1,7 @@
 package com.d288.heroapp.dao;
 
 import com.d288.heroapp.entity.HeroVillain;
-import com.d288.heroapp.entity.Location;
+import com.d288.heroapp.entity.SightingLocation;
 import com.d288.heroapp.entity.Sighting;
 
 import java.util.List;
@@ -14,7 +14,7 @@ public interface SightingDao {
     void updateSighting(Sighting sighting);
     void deleteSighting(Sighting sighting);
 
-    List<Sighting> getSightingsByLocation(Location location);
+    List<Sighting> getSightingsByLocation(SightingLocation sightingLocation);
     List<Sighting> getSightingsByHeroVillain(HeroVillain heroVillain);
 
 }

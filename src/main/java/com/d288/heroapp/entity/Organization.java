@@ -16,6 +16,5 @@ public class Organization {
     private String state;
     private String zipCode;
     private String phone;
-    private List<HeroVillain> HeroVillains;
 
 }

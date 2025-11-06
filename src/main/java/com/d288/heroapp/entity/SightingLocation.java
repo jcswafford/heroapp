@@ -3,7 +3,7 @@ package com.d288.heroapp.entity;
 import lombok.Data;
 
 @Data
-public class Location {
+public class SightingLocation {
 
     private String name;
     private int locationId;

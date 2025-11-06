@@ -1,8 +1,7 @@
 package com.d288.heroapp.entity;
 
-import lombok.Data;
 
-import java.util.List;
+import lombok.Data;
 
 @Data
 public class HeroVillain {
@@ -12,6 +11,5 @@ public class HeroVillain {
     private String description;
     private String superpower;
     private int organizationId;
-    private List<Organization> Organizations;
 
 }

@@ -1,13 +1,15 @@
 package com.d288.heroapp.dao;
 
+import com.d288.heroapp.entity.HeroVillain;
+
 import java.util.List;
 
 public interface HerovillainDao {
 
-    HerovillainDao getherovillain(int id);
-    List<HerovillainDao> getallherovillains();
-    HerovillainDao addherovillain(HerovillainDao h);
-    void updateherovillain(HerovillainDao h);
+    HeroVillain getHerovillain(int id);
+    List<HeroVillain> getallherovillains();
+    HeroVillain addherovillain(HeroVillain h);
+    void updateherovillain(HeroVillain h);
     void deleteHerovillainById(int id);
 
 }

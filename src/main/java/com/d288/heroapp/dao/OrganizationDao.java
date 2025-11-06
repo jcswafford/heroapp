@@ -1,7 +1,7 @@
 package com.d288.heroapp.dao;
 
 import com.d288.heroapp.entity.HeroVillain;
-import com.d288.heroapp.entity.Location;
+import com.d288.heroapp.entity.SightingLocation;
 import com.d288.heroapp.entity.Organization;
 
 import java.util.List;
@@ -15,7 +15,7 @@ public interface OrganizationDao {
     void deleteOrganization(Organization organization);
 
     List<Organization> getOrganizationForHeroVillain(HeroVillain heroVillain);
-    List<Organization> getOrganizationForLocation(Location location);
+    List<Organization> getOrganizationForLocation(SightingLocation sightingLocation);
     List<HeroVillain> getHeroVillainsForOrganization(Organization organization);
 
 }
